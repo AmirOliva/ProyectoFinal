@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+	height:10%;
+	background-image: url("../Imagenes/degradado.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+header img{
+	width: 25%;
+    height: 10%;
+	margin-left: 0px;
+}
+
+header ul{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	widht: 100%;
+	height: 10%;
+	
+}
+
+header li{
+	display: inline;
+}
+
+header li a{
+	font-size: 30pt;
+	text-decoration: none;
+	color:white;
+	padding:20px;
+	margin-right: 50px;
+}
+
+header li a:hover{
+	font-weight: bold;
+	font-size: 45pt;
+	color:red;
+}
+
+article{
+	display: flex;
+	justify-content: column;
+	width: 100%;
+	height: 100%;
+	background-image: url("../Imagenes/4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+form{
+	text-align: left;
+}
+
+.container {
+  width: 45%;
+  height: 50%;
+  color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 20px 20px 40px white;
+  background-image: url("../Imagenes/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+label {
+  display: block;
+  font-family: "Georgia";
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.nombres{
+  display: flex;
+  justify-content: column;
+  width: 100%;
+  height: 10%;
+  margin-top:10px;
+  padding-right: 50px;
+}
+
+.apellido{
+	margin-left:30px
+}
+
+input[type="text"]{
+  width: 30%;
+  height: 10%;
+  margin-left: 5px;
+  font-size: 12pt;
+  padding: 5px; /* separacion dentro del bloque*/
+  margin-top:10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #F7F9F9;
+}
+
+input[type="apellido"]{
+  width: 30%;
+  height: 10%;
+  margin-left: 5px;
+  margin-top:10px;
+  font-size: 12pt;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.genero{
+	font-size: 13pt;
+	margin-top: 10px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+input[type="email"]{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"]{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  overflow: hidden; /* Evita que se muestre la barra de desplazamiento */
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 10px; /* Las esquinas del boton enviar */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;  
+    align-items: center;
+	background-image: url("../Imagenes/degradado.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    
+}
+
+footer img{
+	width: 8%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.codigo{
+	width:40%;
+	margin-left: 50%;
+}
+
+audio{
+	width: 45%;
+	margin-right: 30px;
+}
+
+.tiempo{
+	width: 9%;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+
+}
+
+spam {
+	font-size:14pt;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
